@@ -11,13 +11,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Test Source VI.vi" Type="VI" URL="../Test Source VI.vi"/>
-		<Item Name="Test Target VI.vi" Type="VI" URL="../Test Target VI.vi"/>
-		<Item Name="Reference Control.lvclass" Type="LVClass" URL="../Reference Control/Reference Control.lvclass"/>
-		<Item Name="VI Reference Control.lvclass" Type="LVClass" URL="../VI Reference Control/VI Reference Control.lvclass"/>
-		<Item Name="Class Reference Control.lvclass" Type="LVClass" URL="../Class Reference Control/Class Reference Control.lvclass"/>
-		<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test Class/Test Class.lvclass"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Class.lvclass" Type="LVClass" URL="../Test Class/Test Class.lvclass"/>
+			<Item Name="Test Source VI.vi" Type="VI" URL="../Test Source VI.vi"/>
+			<Item Name="Test Target VI.vi" Type="VI" URL="../Test Target VI.vi"/>
+		</Item>
+		<Item Name="Example" Type="Folder">
+			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		</Item>
+		<Item Name="Classes" Type="Folder">
+			<Item Name="Reference Control.lvclass" Type="LVClass" URL="../Reference Control/Reference Control.lvclass"/>
+			<Item Name="VI Reference Control.lvclass" Type="LVClass" URL="../VI Reference Control/VI Reference Control.lvclass"/>
+			<Item Name="Class Reference Control.lvclass" Type="LVClass" URL="../Class Reference Control/Class Reference Control.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
